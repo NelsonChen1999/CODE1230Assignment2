@@ -28,11 +28,11 @@ var map = new mapboxgl.Map({
 });
 map.on('load', function() {
     map.addLayer({
-        "id": "income",
+        "id": "data",
         "type": "fill-extrusion",
         "source": {
         	'type': 'geojson',
-        	'income': income
+        	'data': data
         },
            'paint': {
                 'fill-extrusion-color' : {
