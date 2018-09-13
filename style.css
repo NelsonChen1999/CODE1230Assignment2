@@ -89,7 +89,7 @@ header
     background-image: url(Background.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position: center;
+    background-position: left top;
     background-size: contain;
     
 }
