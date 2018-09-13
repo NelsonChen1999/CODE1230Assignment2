@@ -87,11 +87,9 @@ h4 {
 header
 {
     background-image: url(Background.jpg);
-    min-height: 100%;
-    min-width: 1920px;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     
 }
