@@ -89,7 +89,7 @@ header
     background-image: url(Background.jpg);
     min-height: 100%;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-size: cover;
 }
