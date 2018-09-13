@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset='utf-8' />
-    <title>Income</title>
+    <title>Languages</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.js'></script>
     <script src='./income.js'></script>
@@ -17,7 +17,7 @@
     
 <div id='map'></div>
 <script>
-mapboxgl.accessToken = 'pk.eyJ1IjoiYnNkcmFnb25yYWdlIiwiYSI6ImNqbTA2Z3ZwZDA1Y2YzcHFnaHRueGdkdjUifQ.nDupeEl6mRC7Pk-JdzLqsg';
+mapboxgl.accessToken = 'pk.eyJ1IjoibmVsc29uY2hlbjE5OTkiLCJhIjoiY2pseWZxZ3hxMGUyajN2bnc4ZjgybTI3OSJ9.Np7Tr6xLdZ07wkD6R4K4KA';
 var map = new mapboxgl.Map({
     container: 'map', // container id
     style: 'mapbox://styles/mapbox/light-v9', // stylesheet location
@@ -38,14 +38,15 @@ map.on('load', function() {
                 'fill-extrusion-color' : {
                    'property': '4000_Fam',
                     "stops":[
-                    	[0, '#231151'],
-                        [5, '#5e177f'],
-                        [9,'#982c80'],
-                        [14, '#d3426e'],
-                        [21, '#f8765c'],
-                        [32, '#febb80'],
-                        [54, '#fcfdbf'],
-                        [117, '#FFFFFF']
+                    	[0, '#000004'],
+                    	[16, '#231151'],
+                        [31, '#5e177f'],
+                        [48,'#982c80'],
+                        [72, '#d3426e'],
+                        [111, '#f8765c'],
+                        [193, '#febb80'],
+                        [437, '#fcfdbf'],
+                        [1283, '#FFFFFF']
                     ]
                     
                 },
@@ -53,7 +54,7 @@ map.on('load', function() {
                     'property': '650_Fam',
                     "stops":[
                         [0, 0],
-                        [117, 10000]
+                        [1283, 10000]
                     ]
                 },
                  'fill-extrusion-opacity': 1
